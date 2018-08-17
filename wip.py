@@ -1,13 +1,28 @@
 #!/usr/bin/env python
 
 import os
-import sys
 
-print("Test")
+print("WORK (adding)")
+print(""""
+     /||\_ 
+     - -
+   _/   \_ """)
 os.system("git add .")
 
-print("Commit")
+print("IN (committing)")
+print("""
+      
+     \ 
+       || \_
+      - -
+    _/   \_ """)
 os.system('git commit  -m "wip" ')
 
-print("Push")
-os.system("git push origin master")
+print("PROGRESS (pushing)")
+print("""
+           
+          /
+     _/ ||
+        - -
+      _/   \_")
+os.system("git push origin master""")
