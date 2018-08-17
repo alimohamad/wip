@@ -4,7 +4,7 @@ import os
 import emoji
 
 print("WORK (adding)")
-print(emoji.emojize(""""
+print(emoji.emojize("""
       :stuck_out_tongue_closed_eyes:
      /||\_ 
      - -
