@@ -8,23 +8,23 @@ print(emoji.emojize(""""
       :stuck_out_tongue_closed_eyes:
      /||\_ 
      - -
-   _/   \_ """))
+   _/   \_ """, use_aliases=True))
 os.system("git add .")
 
 print("IN (committing)")
-print("""
+print(emoji.emojize("""
     :wave:  
      \ :flushed:
        || \_
       - -
-    _/   \_ """)
+    _/   \_ """, use_aliases=True))
 os.system('git commit  -m "wip" ')
 
 print("PROGRESS (pushing)")
-print("""
+print(emoji.emojize("""
             :wave:       
         :weary:  /
      _/ ||
         - -
-      _/   \_""")
+      _/   \_""", use_aliases=True))
 os.system("git push origin master")
