@@ -1,29 +1,33 @@
 #!/usr/bin/env python
 
 import os
+import emoji
 
 print("WORK (adding)")
-print("""
-      \U+1F61C:
-    \U+1F44A /||\_ 
+print(emoji.emojize("""
+      :stuck_out_tongue_winking_eye:
+    :punch: /||\_ 
      - -
-   _/   \_ """)
+   _/   \_ 
+   """, use_aliases=True))
 os.system("git add .")
 
 print("IN (committing)")
-print("""
-    \U+1F44B  
-     \ \U+1F633
+print(emoji.emojize("""
+    :wave: 
+     \ :flushed:
        || \_
       - -
-    _/   \_ """)
+    _/   \_ 
+    """, use_aliases=True))
 os.system('git commit  -m "wip" ')
 
 print("PROGRESS (pushing)")
-print("""
-            \U+1F44B       
-        \U+1F629  /
+print(emoji.emojize("""
+            :wave:       
+        :weary:  /
      _/ ||
         - -
-      _/   \_""")
+      _/   \_
+      """,use_aliases=True))
 os.system("git push origin master")
