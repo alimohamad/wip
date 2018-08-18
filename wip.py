@@ -22,7 +22,8 @@ print(emoji.emojize("""
     """, use_aliases=True))
 os.system('git commit  -m "wip" ')
 
-print("PROGRESS (pushing)")
+print("""
+PROGRESS (pushing)""")
 print(emoji.emojize("""
             :wave:       
         :weary:  /
