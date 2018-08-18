@@ -6,7 +6,7 @@ import emoji
 print("WORK (adding)")
 print(emoji.emojize("""
       :stuck_out_tongue_winking_eye:
-    :punch: /||\_ 
+:punch: /||\_ 
      - -
    _/   \_ 
    """, use_aliases=True))
